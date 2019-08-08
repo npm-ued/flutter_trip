@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.devio.flutter.hybrid.MainActivity">
+
+    <Button
+        android:id="@+id/jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to" />
+
+    <EditText
+        android:id="@+id/paramInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="初次加载RN传递的数据" />
+</LinearLayout>
